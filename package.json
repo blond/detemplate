@@ -1,6 +1,6 @@
 {
   "name": "detemplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse string by template.",
   "license": "MIT",
   "repository": "blond/detemplate",
