@@ -1,0 +1,37 @@
+{
+  "name": "detemplate",
+  "version": "0.0.0",
+  "description": "Parse string by template.",
+  "license": "MIT",
+  "repository": "blond/detemplate",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "parse",
+    "string",
+    "template",
+    "literal",
+    "delimiter",
+    "interpolate"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^3.0.0",
+    "eslint-config-pedant": "^0.8.0",
+    "nyc": "^8.1.0"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "nyc ava",
+    "unit-test": "ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  }
+}
